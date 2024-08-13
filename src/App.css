@@ -1,0 +1,25 @@
+.app-container{
+  background-color: #eeee;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.users-list{
+  display: flex;
+  list-style-type: none;
+  justify-content: center;
+  flex-wrap: wrap;
+  min-height: 100vh;
+  margin: 10px;
+}
+
+.heading{
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 800;
+  font-style: italic;
+  color: #000000;
+}
